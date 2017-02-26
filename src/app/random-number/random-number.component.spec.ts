@@ -23,12 +23,6 @@ describe('RandomNumberComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it(`should fail this test`, async(() => {
-    const fixture = TestBed.createComponent(RandomNumberComponent);
-    const component = fixture.debugElement.componentInstance;
-    expect(component.number).toEqual(77);
-  }));
-
   it('should render title in a h1 tag', async(() => {
     const fixture = TestBed.createComponent(RandomNumberComponent);
     fixture.detectChanges();
