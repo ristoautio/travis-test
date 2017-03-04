@@ -1,6 +1,6 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
-import {RandomNumberComponent} from "./random-number/random-number.component";
+import {RandomNumberComponent} from './random-number/random-number.component';
 
 describe('AppComponent', () => {
   beforeEach(() => {

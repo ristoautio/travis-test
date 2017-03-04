@@ -24,9 +24,9 @@ describe('RandomNumberComponent', () => {
   });
 
   it('should render title in a h1 tag', async(() => {
-    const fixture = TestBed.createComponent(RandomNumberComponent);
-    fixture.detectChanges();
-    const compiled = fixture.debugElement.nativeElement;
+    const randomNumberComponent = TestBed.createComponent(RandomNumberComponent);
+    randomNumberComponent.detectChanges();
+    const compiled = randomNumberComponent.debugElement.nativeElement;
     expect(compiled.querySelector('.random-number').textContent).toBeGreaterThanOrEqual(0);
     expect(compiled.querySelector('.random-number').textContent).toBeLessThanOrEqual(10);
   }));
