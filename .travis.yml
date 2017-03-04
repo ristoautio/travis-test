@@ -4,6 +4,14 @@ language: node_js
 node_js:
   - "6"
 
+script:
+  - ng lint
+  - ng test --no-watch --code-coverage
+  - npm run e2e
+
+after_success:
+  - npm run coveralls
+
 before_install:
  - export CHROME_BIN=/usr/bin/google-chrome
  - export DISPLAY=:99.0
