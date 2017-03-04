@@ -13,10 +13,6 @@ export class RandomNumberComponent implements OnInit {
     this.number = Math.floor((Math.random() * 10) + 1);
   }
 
-  notCovered(){
-    console.log('should not be covered');
-  }
-
   ngOnInit() {
   }
 

@@ -1,5 +1,8 @@
 # TravisTest 
 [![Build Status](https://travis-ci.org/ristoautio/travis-test.svg?branch=master)](https://travis-ci.org/ristoautio/travis-test)
+[![Coverage Status](https://coveralls.io/repos/github/ristoautio/travis-test/badge.svg?branch=master)](https://coveralls.io/github/ristoautio/travis-test?branch=master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1cb80dbcb78e4292b90ea5019b16375e)](https://www.codacy.com/app/ristoautio/travis-test?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ristoautio/travis-test&amp;utm_campaign=Badge_Grade)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-beta.32.3.
 
